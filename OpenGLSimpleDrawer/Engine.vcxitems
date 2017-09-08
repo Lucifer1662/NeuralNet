@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Component.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Export.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Font.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FontCharacter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FontProgram.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FPS.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)lodepng.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshLoaded.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshRaw.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Platform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Program.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReadFiles.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderSource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Split.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpriteRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpriteRendererProgram.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture2D.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EngineTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)vec2ui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)vec3ui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Font.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FontProgram.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FPS.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)lodepng.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshLoaded.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshRaw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Program.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReadFiles.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpriteRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpriteRendererProgram.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture2D.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EngineTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Window.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ForcedIncludeFiles>%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\fragmentShaderSprite.gl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\fragmentShaderText.gl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\vertexShaderSprite.gl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\vertexShaderText.gl" />
+  </ItemGroup>
+</Project>

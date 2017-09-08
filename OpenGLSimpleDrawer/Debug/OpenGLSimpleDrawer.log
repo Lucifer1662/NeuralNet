@@ -1,0 +1,33 @@
+﻿  Camera.cpp
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(10): warning C4251: 'Transform::_rotationMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(11): warning C4251: 'Transform::_translationMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(12): warning C4251: 'Transform::_scaleMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(13): warning C4251: 'Transform::_modelMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(15): warning C4251: 'Transform::_position': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(16): warning C4251: 'Transform::_rotation': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\transform.h(17): warning C4251: 'Transform::_scale': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Transform'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\gameobject.h(14): warning C4251: 'GameObject::components': class 'std::vector<Component *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'GameObject'
+          with
+          [
+              _Ty=Component *
+          ]
+  c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\gameobject.h(14): note: see declaration of 'std::vector<Component *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Component *
+          ]
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\camera.h(15): warning C4251: 'Camera::up': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\camera.h(16): warning C4251: 'Camera::perspectiveMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\openglsimpledrawer\camera.h(17): warning C4251: 'Camera::direction': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\lhawk\stuff\visualstudio\openglresources\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+  OpenGLSimpleDrawer.vcxproj -> C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\OpenGLSimpleDrawer.dll
+  OpenGLSimpleDrawer.vcxproj -> C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\OpenGLSimpleDrawer.pdb (Partial PDB)

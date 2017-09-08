@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="EngineTime.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontProgram.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshLoaded.cpp" />
+    <ClCompile Include="MeshRaw.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="ReadFiles.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp" />
+    <ClCompile Include="SpriteRendererProgram.cpp" />
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="_Window.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="IO.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="EngineTime.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Export.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FontCharacter.h" />
+    <ClInclude Include="FontProgram.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="IO.h" />
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshLoaded.h" />
+    <ClInclude Include="MeshRaw.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="ReadFiles.h" />
+    <ClInclude Include="ShaderSource.h" />
+    <ClInclude Include="Split.h" />
+    <ClInclude Include="SpriteRenderer.h" />
+    <ClInclude Include="SpriteRendererProgram.h" />
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="vec2ui.h" />
+    <ClInclude Include="vec3ui.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="FPS.h" />
+    <ClInclude Include="WindowsWindow.h" />
+  </ItemGroup>
+</Project>

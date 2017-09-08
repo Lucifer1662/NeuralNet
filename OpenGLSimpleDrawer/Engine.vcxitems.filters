@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Font.h">
+      <Filter>Engine\BultInComponets\Text\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FontCharacter.h">
+      <Filter>Engine\BultInComponets\Text\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FontProgram.h">
+      <Filter>Engine\BultInComponets\Text\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IO.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)lodepng.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshRaw.h">
+      <Filter>Engine\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h">
+      <Filter>Engine\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshLoaded.h">
+      <Filter>Engine\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture2D.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Component.h">
+      <Filter>Engine\BultInComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>Engine\BultInComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h">
+      <Filter>Engine\BultInComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReadFiles.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderSource.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Program.h">
+      <Filter>Program</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Platform.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpriteRendererProgram.h">
+      <Filter>Engine\BultInComponets\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpriteRenderer.h">
+      <Filter>Engine\BultInComponets\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Split.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)vec3ui.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)vec2ui.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h">
+      <Filter>Engine\BultInComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextRenderer.h">
+      <Filter>Engine\BultInComponets\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FPS.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EngineTime.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Export.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Font.cpp">
+      <Filter>Engine\BultInComponets\Text\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)FontProgram.cpp">
+      <Filter>Engine\BultInComponets\Text\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)lodepng.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshLoaded.cpp">
+      <Filter>Engine\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshRaw.cpp">
+      <Filter>Engine\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp">
+      <Filter>Engine\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture2D.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp">
+      <Filter>Engine\BultInComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>Engine\BultInComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReadFiles.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Program.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpriteRenderer.cpp">
+      <Filter>Engine\BultInComponets\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpriteRendererProgram.cpp">
+      <Filter>Engine\BultInComponets\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextRenderer.cpp">
+      <Filter>Engine\BultInComponets\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)FPS.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EngineTime.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f0db94be-2669-47e0-b50b-1bf45c857362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{4d57651a-f874-44a3-a511-66a0712e44d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{3787d0d5-570c-41dd-8586-513d4517200f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Mesh">
+      <UniqueIdentifier>{e4e9dba1-979b-4c9f-aca9-4a83ddacfa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{0db77d10-2045-44bb-8c99-1e29c3e58140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BultInComponets">
+      <UniqueIdentifier>{ebbe35b5-3453-428a-8e4f-5b6e7ee3abdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BultInComponets\Sprite">
+      <UniqueIdentifier>{2dc50aca-2d72-4241-9ac5-c6295d26d3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{f123a4da-a1ab-40c8-a626-1b864878c639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8722a203-e364-440d-b2bd-b74ab8ade2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BultInComponets\Text">
+      <UniqueIdentifier>{031327f4-241a-4b38-81f4-41a34984e3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BultInComponets\Text\Font">
+      <UniqueIdentifier>{73ae002f-5a26-4bd0-8dbb-fda3bb1ad037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Android">
+      <UniqueIdentifier>{cd8a565f-5416-47ca-9105-ae66631afb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Windows">
+      <UniqueIdentifier>{822126fc-ef1c-4960-85a1-bf263bbd09e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\fragmentShaderSprite.gl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\vertexShaderSprite.gl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\fragmentShaderText.gl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\Shader\vertexShaderText.gl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
