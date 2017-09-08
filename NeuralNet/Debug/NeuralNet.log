@@ -1,0 +1,26 @@
+﻿  NeuralNetTrainer.cpp
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(14): warning C4251: 'NeuralNet::nodes': class 'std::vector<Node *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NeuralNet'
+          with
+          [
+              _Ty=Node *
+          ]
+  c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(14): note: see declaration of 'std::vector<Node *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Node *
+          ]
+  NeuralNet.cpp
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(14): warning C4251: 'NeuralNet::nodes': class 'std::vector<Node *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NeuralNet'
+          with
+          [
+              _Ty=Node *
+          ]
+  c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(14): note: see declaration of 'std::vector<Node *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Node *
+          ]
+  Generating Code...
+     Creating library C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\NeuralNet.lib and object C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\NeuralNet.exp
+  NeuralNet.vcxproj -> C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\NeuralNet.dll
+  NeuralNet.vcxproj -> C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\NeuralNet.pdb (Partial PDB)

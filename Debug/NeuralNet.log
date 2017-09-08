@@ -1,0 +1,39 @@
+﻿  NeuralNetTrainer.cpp
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(14): warning C4251: 'NeuralNet::nodes': class 'std::vector<Node *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NeuralNet'
+          with
+          [
+              _Ty=Node *
+          ]
+  c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(14): note: see declaration of 'std::vector<Node *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Node *
+          ]
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(17): warning C4251: 'NeuralNet::dimensionsBetweenNodes': class 'std::vector<::size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NeuralNet'
+          with
+          [
+              _Ty=::size_t
+          ]
+  c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(17): note: see declaration of 'std::vector<::size_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=::size_t
+          ]
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(20): warning C4251: 'NeuralNet::nodeData': class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'NeuralNet'
+          with
+          [
+              _Ty=double
+          ]
+  c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnet.h(20): note: see declaration of 'std::vector<double,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=double
+          ]
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\inout.h(5): warning C4251: 'InOut::in': class 'Eigen::Matrix<double,-1,1,0,-1,1>' needs to have dll-interface to be used by clients of struct 'InOut'
+  c:\users\lhawk\stuff\visualstudio\openglresources\eigen\src\core\matrix.h(451): note: see declaration of 'Eigen::Matrix<double,-1,1,0,-1,1>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\inout.h(6): warning C4251: 'InOut::out': class 'Eigen::Matrix<double,-1,1,0,-1,1>' needs to have dll-interface to be used by clients of struct 'InOut'
+  c:\users\lhawk\stuff\visualstudio\openglresources\eigen\src\core\matrix.h(451): note: see declaration of 'Eigen::Matrix<double,-1,1,0,-1,1>'
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnettrainer.cpp(43): warning C4018: '<': signed/unsigned mismatch
+c:\users\lhawk\stuff\visualstudio\neuralnet\neuralnet\neuralnettrainer.cpp(119): warning C4018: '<': signed/unsigned mismatch
+  NeuralNet.vcxproj -> C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\NeuralNet.dll
+  NeuralNet.vcxproj -> C:\Users\lhawk\Stuff\VisualStudio\NeuralNet\Debug\NeuralNet.pdb (Partial PDB)

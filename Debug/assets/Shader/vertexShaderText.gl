@@ -1,0 +1,15 @@
+
+
+layout(location = 0) in vec4 vPosition;
+layout(location = 1) in vec2 vUv;
+//layout(location = 2) in vec3 vSize;
+
+uniform mat4 transformMat;
+
+out vec2 uv;
+//out vec3 size;
+void main() {
+    gl_Position = transformMat * vPosition;
+    uv = vUv;
+//	size = vSize;
+}

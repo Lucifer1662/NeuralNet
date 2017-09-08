@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="NeuralNet.h" />
+    <ClInclude Include="InOut.h" />
+    <ClInclude Include="NeuralNetTrainer.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="LinearNode.h" />
+    <ClInclude Include="ExponentialNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NeuralNet.cpp" />
+    <ClCompile Include="NeuralNetTrainer.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="LinearNode.cpp" />
+    <ClCompile Include="ExponentialNode.cpp" />
+  </ItemGroup>
+</Project>
